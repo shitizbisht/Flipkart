@@ -1,0 +1,193 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-side {
+    display: flex;
+
+}
+
+
+
+
+.flipkart-items {
+    background-color: #ffe51f;
+    border-radius: 10px;
+    text-align: center;
+    width: 100px;
+    height: 24px;
+    margin: 10px;
+    padding: 10px;
+    padding-right: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.flipkart-items img {
+    height: 25px;
+}
+
+.location {
+    justify-content: center;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+.search-items {
+    border: 2px solid #03a9f4;
+    border-radius: 10px;
+    width: 1300px;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    gap: 6px;
+    padding: 0px 10px;
+    margin: 10px;
+}
+
+.search-items input {
+    border: none;
+    width: 1000px;
+    outline: none;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4px;
+}
+
+.search-items i {
+    font-size: 20px;
+    color: grey;
+    stroke: gray;
+    stroke-width: 1px;
+    fill: none;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    color: #333333;
+    column-gap: 0px;
+    margin-left: 20px;
+}
+
+.menu-item {
+    display: flex;
+    margin: 12px;
+    justify-content: center;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    font-size: 18px;
+    align-items: center;
+    gap: 8px;
+    padding: 0px;
+}
+
+.menu-item img {
+    width: 32px;
+}
+
+.category {
+    margin: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    text-align: center;
+    font-family: "Proxima Nova", Arial, sans-serif;
+}
+
+.category img {
+    width: 40px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #c2c2c2;
+    margin: 10px;
+}
+
+.for-you:active {
+    background-color: aqua;
+}
+
+.banner {
+    display: flex;
+    overflow-x: scroll;
+    gap: 10px;
+    animation: scroll 5s infinite linear;
+    margin: 0px 10px;
+    border-radius: 10px;
+}
+
+.banner::-webkit-scrollbar {
+    display: flex;
+}
+
+.banner img {
+    width: 700px;
+    border-radius: 10px;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(228, 227, 228);
+    margin: 2px 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.card-items {
+    display: flex;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    margin: 20px;
+}
+
+.card-items img {
+    width: 250px;
+    margin-left: 40px;
+}
+
+.product-detail {
+    margin-left: 10px;
+    text-align: left;
+}
+
+.list {
+    line-height: 25px;
+    padding: 5px 15px;
+    font-size: 14px;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 200px;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    line-height: 10px;
+    text-align: left;
+}
+
+.p2 {
+    background-color: whitesmoke;
+    margin: 0px;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: rgb(82, 9, 219);
+}
